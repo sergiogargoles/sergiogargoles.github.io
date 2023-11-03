@@ -1,0 +1,21 @@
+/*Hecho por Sergio Gárgoles*/
+
+body{
+    /* imagen sacada de https://pixabay.com/es/photos/naturaleza-mar-aurora-borealis-1032523/*/
+    background-image: url("/contactarme/img/nature-1032523_1280.jpg");
+    background-size: cover;
+}
+h1.centro{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+fieldset{
+    color: white;
+}
+input.boton{
+   align-items: center;
+}

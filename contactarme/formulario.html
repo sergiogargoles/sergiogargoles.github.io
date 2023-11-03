@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <h1 class="centro">Contáctame</h1>
+    <form action="get">
+        <fieldset>
+            <legend> Datos Personales </legend>
+            <p>¿Sobre qué es tu pregunta?</p>
+            <select name="pregunta" required>
+                <option>Personales</option>
+                <option>Sobre el proyecto</option>
+                <option>Otros</option>
+            </select>
+            <p><label for="identidad"> ¿Cómo te identificas? </label> </p>
+            <input id="identidad" type="text" name="Identidad" placeholder="Escribe aquí">
+            <P><label for="email"> Correo de contacto </label></P>
+            <input type="email" name="email"id="email" size="40" required placeholder="Tu correo aquí">
+            <p> ¿Cuál es tu fecha de nacimiento? </p>
+            <input type="date" name="Nacimiento">
+
+            
+            <br> <br>
+            <input class="boton" type="submit" name="Enviar" value="Enviar">
+            <input class="boton" type="reset" name="borrar" value="Borrar">
+        </fieldset>
+    </form>
+</body>
+</html>
