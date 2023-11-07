@@ -1,32 +1,47 @@
 /*Hecho por Sergio Gárgoles*/
 
 fieldset{
-    background-color: rgb(11, 11, 92);
+    background-color: rgb(11, 11, 92, 0.5);
     opacity: 1;
  
 }
+
 body{
     /* imagen sacada de https://pixabay.com/es/photos/naturaleza-mar-aurora-borealis-1032523/*/
     background-image: url("../img/nature-1032523_1280.jpg");
     background-size: cover;
 }
+
 *.centro{
     text-align: center;
     color: white;
 }
+
 p{
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
+
 fieldset{
     color: white;
 }
-input.boton{
+
+.botones{
    align-items: center;
+   size: 30rem;
 }
+
 table.tabla{
     align-items: center;
     border: 0;
     color: #FFFF;
+}
+
+a:visited{
+    color: peru;
+}
+
+a{
+    color: turquoise;
 }
