@@ -1,7 +1,32 @@
 /*Hecho por Sergio Gárgoles*/
-h1.centro {
-    text-align: center;
+
+fieldset{
+    background-color: rgb(11, 11, 92);
+    opacity: 1;
+ 
 }
-h5.centro {
+body{
+    /* imagen sacada de https://pixabay.com/es/photos/naturaleza-mar-aurora-borealis-1032523/*/
+    background-image: url("../img/nature-1032523_1280.jpg");
+    background-size: cover;
+}
+*.centro{
     text-align: center;
+    color: white;
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+fieldset{
+    color: white;
+}
+input.boton{
+   align-items: center;
+}
+table.tabla{
+    align-items: center;
+    border: 0;
+    color: #FFFF;
 }
