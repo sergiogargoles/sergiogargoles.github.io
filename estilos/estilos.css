@@ -2,8 +2,6 @@
 
 fieldset{
     background-color: rgb(11, 11, 92, 0.5);
-    opacity: 1;
- 
 }
 
 body{
@@ -27,9 +25,8 @@ fieldset{
     color: white;
 }
 
-.botones{
+input.botones{
    align-items: center;
-   size: 30rem;
 }
 
 table.tabla{
@@ -44,4 +41,8 @@ a:visited{
 
 a{
     color: turquoise;
+}
+.margen {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

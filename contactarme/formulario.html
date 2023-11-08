@@ -8,7 +8,7 @@
 <body>
     <h1 class="centro">Contáctame</h1>
     <form action="get">
-        <fieldset>
+        <fieldset class="margen">
             <legend> Datos Personales </legend>
             <p>Razón de contacto
                 <input type="radio" name="1" value="1" id="1"> <label for="1"> Empresa </label>
@@ -23,15 +23,14 @@
             </select>
             <p><label for="identidad"> ¿Cómo te identificas? </label> </p>
             <input id="identidad" type="text" name="Identidad" placeholder="Escribe aquí">
-            <P><label for="email"> Correo de contacto </label></P>
+            <p><label for="email"> Correo de contacto </label></p>
             <input type="email" name="email" id="email" size="40" required placeholder="Tu correo aquí">
             <p><label for="tel"> Tu número de teléfono </label></p>
             <input type="tel" name="teléfono" id="tel" size="20" required placeholder="Tu teléfono aquí">
             <p> ¿Cuál es tu fecha de nacimiento? </p>
             <input type="date" name="Nacimiento">
         </fieldset>
-        <br>
-        <fieldset> <legend> Datos a aportar </legend>
+        <fieldset class="margen"> <legend> Datos a aportar </legend>
             <p><label for="fotito">Pon aquí una imagen de tu oferta</label></p>
             <input type="file" id="fotito">
             <p>Nivel de Importancia (Irrelevante, Intermedio, Muy relevante)</p>
@@ -39,10 +38,9 @@
             <p> Comentarios </p>
             <textarea name="texto" rows="3" cols="30" placeholder="Escriba aquí su comentario"></textarea>
         </fieldset>
-        <br>
         <p> He leído y acepto los <a href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso#:~:text=Los%20t%C3%A9rminos%20y%20condiciones%20de,para%20usar%20el%20servicio%20ofertado."> términos y condiciones </a> de este sitio <input type="checkbox" name="Términos" required > </p>
-        <input class="boton" type="submit" name="Enviar" value="Enviar" size="3">
-        <input class="boton" type="reset" name="borrar" value="Borrar" size="20px">
+        <input class="botones" type="submit" name="Enviar" value="Enviar" size="3">
+        <input class="botones" type="reset" name="borrar" value="Borrar" size="20px">
     </form>
 </body>
 </html>
