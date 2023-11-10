@@ -39,10 +39,32 @@ a:visited{
     color: peru;
 }
 
-a{
+a:hover{
     color: turquoise;
 }
-.margen {
+
+div {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.header {
+    color: white;
+}
+
+header a{
+    margin: 0% 5%; 
+}
+
+header a:hover{
+    color: cadetblue;
+}
+
+header a:visited{
+    color: thistle;
+}
+
+nav ul{
+    text-justify: center;
+    list-style: none;
 }
