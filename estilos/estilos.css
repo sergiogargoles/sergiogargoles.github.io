@@ -51,11 +51,10 @@ div {
 .header {
     color: white;
 }
-
 header a{
-    margin: 0% 5%; 
-}
+    color: #BEF;
 
+}
 header a:hover{
     color: cadetblue;
 }
@@ -64,7 +63,16 @@ header a:visited{
     color: thistle;
 }
 
-nav ul{
-    text-justify: center;
+div.header ul{
+    margin-left: 25em;
     list-style: none;
+    display: flex; 
+    flex-direction: row; 
+    gap: 20px;
+    text-align: center;
+    color: #CEBADA;
+}
+table.curriculum {
+    margin: 0 auto; width: 100%;
+    color: white;
 }
