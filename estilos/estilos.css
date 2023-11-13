@@ -63,16 +63,31 @@ header a:visited{
     color: thistle;
 }
 
-div.header ul{
-    margin-left: 25em;
-    list-style: none;
-    display: flex; 
-    flex-direction: row; 
-    gap: 20px;
-    text-align: center;
-    color: #CEBADA;
+
+div.header{
+background-color: rgb(11, 11, 92, 0.5);
+border-color: white;
+border-width: 2px;
+border-style: groove;
+margin: 10px;
+padding: 20px;
+}
+a.header:hover{
+    color: turquoise;
 }
 table.curriculum {
-    margin: 0 auto; width: 100%;
     color: white;
+}
+
+h2.header{
+    display: inline;
+    margin-right: 5%;
+}
+a.header{
+    margin-right: 5%;
+    font-size: 1.5em;
+}
+
+#derecha{
+    text-align: right;
 }
