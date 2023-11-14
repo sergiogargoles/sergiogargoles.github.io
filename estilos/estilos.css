@@ -3,6 +3,10 @@
 
 /*general*/
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     /* imagen sacada de https://pixabay.com/es/photos/naturaleza-mar-aurora-borealis-1032523/*/
     background-image: url("../img/nature-1032523_1280.jpg");
@@ -62,6 +66,9 @@ div.header{
     margin-left:  10px;
     padding: 3% 4% 0% 1%;
     font-family: Helvetica;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 a.header{
@@ -83,12 +90,12 @@ table.curriculum {
     color: white;
     align-items: center;
     background-color: rgb(11, 11, 92, 0.5) ;
-    margin-left: 20em;
     font-size: 1.5em;
     border-color: white;
     border-width: 2px;
     border-style: groove;
     padding: 30px;
+    margin-top: 2%;
 }
 
 table.curriculum ul{
@@ -99,3 +106,19 @@ table.curriculum th{
     text-decoration-line: underline;
 }
 
+/* Aside del curriculum*/
+div.aside{
+    float: left;
+    color: white;  
+    background-color: rgb(11, 11, 92, 0.5) ;
+    margin-right: 5%;
+    margin-left: 0.5%;
+    margin-top: 1%;
+    font-size: 1.5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    padding: 30px;
+    height: 20em;
+    position: relative;
+}
