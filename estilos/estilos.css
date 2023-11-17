@@ -40,16 +40,15 @@ fieldset{
     background-color: rgb(11, 11, 92, 0.5);
 }
 
-input.botones{
-   size:10em;
-}
-
 a:visited{
     color: #Cafada;
 }
 
 a:hover{
     color: violet;
+    border: 2px;
+    border-style: dotted;
+    border-color: chartreuse;
 }
 
 /*Header*/
@@ -69,6 +68,7 @@ div.header{
     position: sticky;
     top: 0px;
     z-index: 1;
+    border-radius: 10px;
 }
 
 a.header{
@@ -95,15 +95,23 @@ table.curriculum {
     border-width: 2px;
     border-style: groove;
     padding: 30px;
-    margin-top: 2%;
+    margin-top: 24px;
+    height: 600px;
 }
 
-table.curriculum ul{
-    list-style: none;
+table.curriculum p{
+    color: white;
+    font-size: 20px;
+}
+
+table.curriculum td{
+    padding-bottom: 30px;
 }
 
 table.curriculum th{
     text-decoration-line: underline;
+    padding-right: 20px;
+    
 }
 
 /* Aside del curriculum*/
@@ -113,12 +121,21 @@ div.aside{
     background-color: rgb(11, 11, 92, 0.5) ;
     margin-right: 5%;
     margin-left: 0.5%;
-    margin-top: 1%;
+    margin-top: 14px;
     font-size: 1.5em;
     border-color: white;
     border-width: 2px;
     border-style: groove;
+    height: 600px;
     padding: 30px;
-    height: 20em;
     position: relative;
+}
+
+aside img{
+    height: 300px;
+    width: 200px;
+ 
+}
+p.foto{
+    text-align: center;
 }
