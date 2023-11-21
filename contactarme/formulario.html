@@ -6,27 +6,23 @@
     <link rel="stylesheet" href="../estilos/estilos.css">
 </head>
 <body>
-    <div class="header">
-        <header>
-          <nav>   
-            <h2 class="header">Página de Sergio Gárgoles Carballo </h2>
-            <a class="header" href="../index.html">Página Principal</a>
-            <a class="header" href="../contactarme/formulario.html">Formulario de contacto</a>
-            <a class="header" href="../sobre_mi/curriculum.html">Currículum</a>
-          </nav>
-          <h3 id="derecha">IES Villablanca</h3>
-        </header>
-    </div>
-
+    <header>
+      <nav> 
+        <a class="header" href="../index.html">Página Principal</a>
+        <a class="header" href="../contactarme/formulario.html">Formulario de contacto</a>
+        <a class="header" href="../sobre_mi/curriculum.html">Currículum</a>
+      </nav>
+      <h3 id="derecha">IES Villablanca</h3>
+    </header>
+    <main>
     <h1 class="centro">Contáctame</h1>
     <form action="get">
-    <div>
         <fieldset>
             <legend> Datos Personales </legend>
             <p>Razón de contacto
                 <input type="radio" name="1" value="1" id="1"> <label for="1"> Empresa </label>
                 <input type="radio" name="1" value="2" id="2"> <label for="2"> Particular </label>
-              </p>
+            </p>
             <p>¿Sobre qué es tu pregunta?</p>
             <select name="pregunta">
                 <option value="1">No especificado</option>
@@ -42,9 +38,7 @@
             <input type="tel" name="teléfono" id="tel" size="20" required placeholder="Tu teléfono aquí">
             <p> ¿Cuál es tu fecha de nacimiento? </p>
             <input type="date" name="Nacimiento">
-         </fieldset>
-    </div>
-    <div>
+        </fieldset>
         <fieldset> <legend> Datos a aportar </legend>
             <p><label for="fotito">Pon aquí una imagen de tu oferta</label></p>
             <input type="file" id="fotito">
@@ -52,11 +46,14 @@
             <input type="range" name="range" min="1" max="3">
             <p> Comentarios </p>
             <textarea name="texto" rows="3" cols="30" placeholder="Escriba aquí su comentario"></textarea>
-        </fieldset>
-    </div>
         <p> He leído y acepto los <a href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso#:~:text=Los%20t%C3%A9rminos%20y%20condiciones%20de,para%20usar%20el%20servicio%20ofertado."> términos y condiciones </a> de este sitio <input type="checkbox" name="Términos" required > </p>
         <input class="botones" type="submit" name="Enviar" value="Enviar">
         <input class="botones" type="reset" name="borrar" value="Borrar">
+    </fieldset>
     </form>
+    </main>
+    <footer>
+        <p>Página hecha por Sergio Gárgoles Carballo</p>
+    </footer>
 </body>
 </html>
