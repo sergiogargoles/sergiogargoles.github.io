@@ -186,7 +186,7 @@ aside li{
     list-style-type: none;
 }
 
-div.cualidad{
+section.cualidad{
     display: inline-block;
     column-count: 3;
 }
