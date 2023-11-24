@@ -122,7 +122,6 @@ aside{
     background-color: rgb(11, 11, 92, 0.5) ;
     margin-right: 5%;
     margin-left: 0.5%;
-    margin-top: ;
     font-size: 1.5em;
     border-color: white;
     border-width: 2px;
@@ -153,6 +152,8 @@ footer{
     bottom: 0;
     border-radius: 10px;
     margin-top: 20px;
+    text-align: center;
+    clear: both;
 }
 
 
@@ -164,6 +165,8 @@ main.index{
     border-style: groove;
     margin-top: 20px;
     margin-left: 20%;
+    margin-right: 25.5%;
+    padding-left: 20px;
 }
 aside.index{
     float: left;
@@ -189,4 +192,39 @@ aside li{
 section.cualidad{
     display: inline-block;
     column-count: 3;
+}
+
+aside.derecha {
+    float: right;
+    color: white;  
+    background-color: rgb(11, 11, 92, 0.5) ;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    height: 10%;
+}
+
+article{
+    display: block;
+    margin-bottom: 100px;
+}
+
+img.img1{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+
+}
+img.img2{
+    height: 200px;
+    width: 200px;
+    position: relative;
+
 }
