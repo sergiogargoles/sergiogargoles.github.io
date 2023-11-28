@@ -117,12 +117,16 @@ table.curriculum p{
 
 table.curriculum td{
     padding-bottom: 30px;
+    display: block;
 }
 
 table.curriculum th{
     text-decoration-line: underline;
     padding-right: 20px;
     
+}
+table.curriculum tr{
+    margin-bottom: 10px;
 }
 
 /* Aside del curriculum*/
