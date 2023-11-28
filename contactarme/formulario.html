@@ -16,6 +16,19 @@
       </nav>
       <h3 id="derecha">IES Villablanca</h3>
     </header>
+    <aside class="formulario">
+    <fieldset> <legend> Datos a aportar </legend>
+        <p><label for="fotito">Pon aquí una imagen de tu oferta</label></p>
+        <input type="file" id="fotito">
+        <p>Nivel de Importancia (Irrelevante, Intermedio, Muy relevante)</p>
+        <input type="range" name="range" min="1" max="3">
+        <p> Comentarios </p>
+        <textarea name="texto" rows="3" cols="30" placeholder="Escriba aquí su comentario"></textarea>
+    <p> He leído y acepto los <a href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso#:~:text=Los%20t%C3%A9rminos%20y%20condiciones%20de,para%20usar%20el%20servicio%20ofertado."> términos y condiciones </a> de este sitio <input type="checkbox" name="Términos" required > </p>
+    <input class="botones" type="submit" name="Enviar" value="Enviar">
+    <input class="botones" type="reset" name="borrar" value="Borrar">
+    </fieldset>
+    </aside>
     <main>
     <h1 class="centro">Contáctame</h1>
     <form action="get">
@@ -41,17 +54,6 @@
             <p> ¿Cuál es tu fecha de nacimiento? </p>
             <input type="date" name="Nacimiento">
         </fieldset>
-        <fieldset> <legend> Datos a aportar </legend>
-            <p><label for="fotito">Pon aquí una imagen de tu oferta</label></p>
-            <input type="file" id="fotito">
-            <p>Nivel de Importancia (Irrelevante, Intermedio, Muy relevante)</p>
-            <input type="range" name="range" min="1" max="3">
-            <p> Comentarios </p>
-            <textarea name="texto" rows="3" cols="30" placeholder="Escriba aquí su comentario"></textarea>
-        <p> He leído y acepto los <a href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso#:~:text=Los%20t%C3%A9rminos%20y%20condiciones%20de,para%20usar%20el%20servicio%20ofertado."> términos y condiciones </a> de este sitio <input type="checkbox" name="Términos" required > </p>
-        <input class="botones" type="submit" name="Enviar" value="Enviar">
-        <input class="botones" type="reset" name="borrar" value="Borrar">
-    </fieldset>
     </form>
     </main>
     <footer>
