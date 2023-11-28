@@ -65,6 +65,7 @@ a:visited {
     color: #Cafada;
 }
 
+
 a:hover {
     color: violet;
     border: 2px;
@@ -82,9 +83,10 @@ aside.formulario {
     position: relative;
 }
 
-button{
-    height: 300px;
-    width: 300px;
+input.boton{
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
 }
 
 /*Header*/
