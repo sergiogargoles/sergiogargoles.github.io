@@ -3,23 +3,23 @@
 
 /*general*/
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     /* imagen sacada de https://pixabay.com/es/photos/naturaleza-mar-aurora-borealis-1032523/*/
     background-image: url("../img/nature-1032523_1280.jpg");
     background-size: cover;
 }
 
-p{
+p {
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
 
-*.centro{
+*.centro {
     text-align: center;
     color: white;
 }
@@ -29,36 +29,62 @@ div {
     margin-bottom: 10px;
 }
 
-#derecha{
+#derecha {
     text-align: right;
+}
+
+#Principal{
+    color: black;
+}
+
+#Formulario{
+    color: black;
+}
+
+#Curriculum{
+    color: black;
+}
+
+#Proyecto{
+    color: black;
 }
 
 /*Formulario*/
 
-fieldset{
+fieldset {
     color: white;
     background-color: rgb(11, 11, 92, 0.5);
     text-align: center;
 }
 
-a:visited{
+input:hover{
+    background-color: thistle;
+}
+
+a:visited {
     color: #Cafada;
 }
 
-a:hover{
+a:hover {
     color: violet;
     border: 2px;
     border-style: dotted;
     border-color: chartreuse;
 }
-aside.formulario{
+
+aside.formulario {
     float: right;
-    color: white;  
+    color: white;
     margin-top: 50px;
     margin-right: 5%;
     margin-left: 0.5%;
     padding: 30px;
     position: relative;
+}
+
+button{
+    height: 300px;
+    width: 300px;
 }
 
 /*Header*/
@@ -67,12 +93,12 @@ aside.formulario{
     color: white;
 }
 
-header{
+header {
     background-color: rgba(118, 26, 141, 0.5);
     border-color: white;
     border-width: 2px;
     border-style: groove;
-    margin-left:  10px;
+    margin-left: 10px;
     padding: 3% 4% 0% 1%;
     font-family: Helvetica;
     position: sticky;
@@ -82,15 +108,16 @@ header{
     text-align: center;
 }
 
-a.header{
+a.header {
     margin-right: 8%;
     font-size: 1.5em;
 }
-a.header:hover{
+
+a.header:hover {
     color: violet;
 }
 
-h2.header{
+h2.header {
     display: inline;
     margin-right: 8%;
 }
@@ -100,7 +127,7 @@ h2.header{
 table.curriculum {
     color: white;
     align-items: center;
-    background-color: rgb(11, 11, 92, 0.5) ;
+    background-color: rgb(11, 11, 92, 0.5);
     font-size: 1.5em;
     border-color: white;
     border-width: 2px;
@@ -110,30 +137,32 @@ table.curriculum {
     height: 600px;
 }
 
-table.curriculum p{
+table.curriculum p {
     color: white;
     font-size: 20px;
 }
 
-table.curriculum td{
+table.curriculum td {
     padding-bottom: 30px;
     display: block;
+
 }
 
-table.curriculum th{
+table.curriculum th {
     text-decoration-line: underline;
     padding-right: 20px;
-    
+    border: white 2px solid;
 }
-table.curriculum tr{
+
+table.curriculum tr {
     margin-bottom: 10px;
 }
 
 /* Aside del curriculum*/
-aside.curriculum{
+aside.curriculum {
     float: left;
-    color: white;  
-    background-color: rgb(11, 11, 92, 0.5) ;
+    color: white;
+    background-color: rgb(11, 11, 92, 0.5);
     margin-right: 5%;
     margin-left: 0.5%;
     font-size: 1.5em;
@@ -145,17 +174,18 @@ aside.curriculum{
     position: relative;
 }
 
-aside img{
+aside img {
     height: 300px;
     width: 200px;
- 
+
 }
-p.foto{
+
+p.foto {
     text-align: center;
 }
 
 /*Footer*/
-footer{
+footer {
     background-color: rgba(118, 26, 141, 0.5);
     border-color: white;
     border-width: 2px;
@@ -172,8 +202,8 @@ footer{
 
 
 /*Index*/
-main.index{
-    background-color: rgb(11, 11, 92, 0.5) ;
+main.index {
+    background-color: rgb(11, 11, 92, 0.5);
     border-color: white;
     border-width: 2px;
     border-style: groove;
@@ -181,12 +211,14 @@ main.index{
     margin-left: 20%;
     margin-right: 25.5%;
     padding-left: 20px;
+    height: 420px;
 
 }
-aside.index{
+
+aside.index {
     float: left;
-    color: white;  
-    background-color: rgb(11, 11, 92, 0.5) ;
+    color: white;
+    background-color: rgb(11, 11, 92, 0.5);
     margin-right: 5%;
     margin-left: 0.5%;
     margin-top: 20px;
@@ -204,20 +236,24 @@ aside.index{
     padding-bottom: 10px;
 }
 
-aside li{
+aside li {
     list-style-type: none;
 }
 
-section.cualidad{
-    display: inline-block;
+section.cualidad {
     column-count: 3;
     margin-right: 10%;
+    break-after: column;
+}
+
+article{
+    height: 300px;
 }
 
 aside.derecha {
     float: right;
-    color: white;  
-    background-color: rgb(11, 11, 92, 0.5) ;
+    color: white;
+    background-color: rgb(11, 11, 92, 0.5);
     margin-right: 0.5%;
     margin-left: 0.5%;
     margin-top: 20px;
@@ -229,31 +265,82 @@ aside.derecha {
     border-bottom-right-radius: 10px;
     position: relative;
     height: 10%;
+    width: 350px;
+    padding-left: 10px;
 }
 
-article{
-    display: block;
-    margin-bottom: 100px;
+
+
+article.cualidad1 {
+    margin-right: 80px;
 }
-article h2{
+
+article.cualidad2 {
+    margin-right: 20px;
+}
+
+article h2 {
     color: chartreuse;
 
 }
 
-p.index{
+p.index {
     margin-bottom: 200px;
     margin-top: 0px;
 
 
 }
-img.img1{
+
+img.img1 {
     height: 100px;
     width: 100px;
     float: left;
     margin-bottom: 10px;
+    padding-right: 20px;
 }
-img.img2{
+
+img.img2 {
     height: 100px;
     width: 100px;
     float: left;
+    padding-right: 20px;
+}
+
+img.img3 {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+img.img4 {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+/*sobre el proyecto*/
+
+main.proyecto{
+    background-color: rgb(11, 11, 92, 0.5);
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+aside.proyecto{
+    float: left;
+    color: white;
+    background-color: rgb(11, 11, 92, 0.5);
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
