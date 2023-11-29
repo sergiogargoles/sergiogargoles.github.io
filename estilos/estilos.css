@@ -33,19 +33,19 @@ div {
     text-align: right;
 }
 
-#Principal{
+#Principal {
     color: black;
 }
 
-#Formulario{
+#Formulario {
     color: black;
 }
 
-#Curriculum{
+#Curriculum {
     color: black;
 }
 
-#Proyecto{
+#Proyecto {
     color: black;
 }
 
@@ -57,7 +57,7 @@ fieldset {
     text-align: center;
 }
 
-input:hover{
+input:hover {
     background-color: thistle;
 }
 
@@ -83,7 +83,7 @@ aside.formulario {
     position: relative;
 }
 
-input.boton{
+input.boton {
     height: 50px;
     width: 100px;
     margin-right: 20px;
@@ -157,7 +157,7 @@ table.curriculum th {
 }
 
 
-table.curriculum td:last-child{
+table.curriculum td:last-child {
     border-bottom: white 2px solid;
 }
 
@@ -247,7 +247,7 @@ section.cualidad {
     break-after: column;
 }
 
-article{
+article {
     height: 300px;
 }
 
@@ -284,10 +284,11 @@ aside.derecha {
     width: 200px;
 }
 
-.cualidad3{
+.cualidad3 {
     margin-left: 130px;
-    width: 200px;
+    width: 100px;
 }
+
 article h2 {
     color: chartreuse;
     margin-top: 0;
@@ -330,7 +331,7 @@ img.img4 {
 
 /*sobre el proyecto*/
 
-main.proyecto{
+main.proyecto {
     background-color: rgb(11, 11, 92, 0.5);
     border-color: white;
     border-width: 2px;
@@ -340,7 +341,7 @@ main.proyecto{
     margin-left: 20%;
 }
 
-aside.proyecto{
+aside.proyecto {
     float: left;
     color: white;
     background-color: rgb(11, 11, 92, 0.5);
