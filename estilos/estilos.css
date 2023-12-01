@@ -31,6 +31,14 @@ div {
 
 #derecha {
     text-align: right;
+    text-decoration-line: underline;
+    letter-spacing: 3px;
+    initial-letter: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration-color: blueviolet;
+
 }
 
 #Principal {
@@ -124,7 +132,7 @@ h2.header {
     margin-right: 8%;
 }
 
-/*Tabla del curriculum*/
+/*Curriculum*/
 
 table.curriculum {
     color: white;
@@ -159,6 +167,10 @@ table.curriculum th {
 
 table.curriculum td:last-child {
     border-bottom: white 2px solid;
+}
+
+ul.curriculum{
+    list-style-type: "🏳‍🌈 ";
 }
 
 /* Aside del curriculum*/
@@ -285,8 +297,8 @@ aside.derecha {
 }
 
 .cualidad3 {
-    margin-left: 130px;
-    width: 100px;
+    margin-left: 90px;
+    width: 200px;
 }
 
 article h2 {
@@ -355,3 +367,4 @@ aside.proyecto {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
