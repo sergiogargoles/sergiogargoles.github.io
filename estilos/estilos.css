@@ -34,8 +34,8 @@ div {
     text-decoration-line: underline;
     letter-spacing: 3px;
     initial-letter: white;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
     font-style: italic;
     text-decoration-color: blueviolet;
 
