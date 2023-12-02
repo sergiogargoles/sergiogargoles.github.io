@@ -55,6 +55,181 @@ div {
     color: black;
 }
 
+
+/*Header*/
+
+.header {
+    color: white;
+}
+
+header {
+    background-color: rgba(118, 26, 141, 0.5);
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    margin-left: 10px;
+    padding: 3% 4% 0% 1%;
+    font-family: Helvetica;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a.header {
+    margin-right: 8%;
+    font-size: 1.5em;
+}
+
+a.header:hover {
+    color: violet;
+}
+
+h2.header {
+    display: inline;
+    margin-right: 8%;
+}
+
+/*Footer*/
+footer {
+    background-color: rgba(118, 26, 141, 0.5);
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    width: 100%;
+    padding-left: 20px;
+    font-family: Helvetica;
+    bottom: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    clear: both;
+}
+
+/*Index*/
+main.index {
+    background-color: rgb(11, 11, 92, 0.5);
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 25.5%;
+    padding-left: 20px;
+    height: 420px;
+
+}
+
+aside.index {
+    float: left;
+    color: white;
+    background-color: rgb(11, 11, 92, 0.5);
+    margin-right: 5%;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    height: 10%;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+section.cualidad {
+    column-count: 3;
+    margin-right: 10%;
+    break-after: column;
+}
+
+article {
+    height: 300px;
+}
+
+aside.derecha {
+    float: right;
+    color: white;
+    background-color: rgb(11, 11, 92, 0.5);
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    height: 10%;
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cualidad1 {
+    margin-right: 80px;
+    margin-left: 20%;
+    width: 200px;
+}
+
+.cualidad2 {
+    margin-left: 80px;
+    width: 200px;
+}
+
+.cualidad3 {
+    margin-left: 130px;
+    width: 200px;
+}
+
+article h2 {
+    color: chartreuse;
+    margin-top: 0;
+
+}
+
+p.index {
+    margin-bottom: 200px;
+    margin-top: 0px;
+
+
+}
+
+img.img1 {
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+
+img.img2 {
+    height: 120px;
+    width: 120px;
+    float: left;
+    padding-right: 20px;
+}
+
+img.img3 {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+img.img4 {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
 /*Formulario*/
 
 fieldset {
@@ -95,40 +270,6 @@ input.boton {
     margin-right: 20px;
 }
 
-/*Header*/
-
-.header {
-    color: white;
-}
-
-header {
-    background-color: rgba(118, 26, 141, 0.5);
-    border-color: white;
-    border-width: 2px;
-    border-style: groove;
-    margin-left: 10px;
-    padding: 3% 4% 0% 1%;
-    font-family: Helvetica;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    border-radius: 10px;
-    text-align: center;
-}
-
-a.header {
-    margin-right: 8%;
-    font-size: 1.5em;
-}
-
-a.header:hover {
-    color: violet;
-}
-
-h2.header {
-    display: inline;
-    margin-right: 8%;
-}
 
 /*Tabla del curriculum*/
 
@@ -209,147 +350,6 @@ ul.curriculum {
     list-style-type: "🏳‍🌈 ";
 }
 
-/*Footer*/
-footer {
-    background-color: rgba(118, 26, 141, 0.5);
-    border-color: white;
-    border-width: 2px;
-    border-style: groove;
-    width: 100%;
-    padding-left: 20px;
-    font-family: Helvetica;
-    bottom: 0;
-    border-radius: 10px;
-    margin-top: 20px;
-    text-align: center;
-    clear: both;
-}
-
-
-/*Index*/
-main.index {
-    background-color: rgb(11, 11, 92, 0.5);
-    border-color: white;
-    border-width: 2px;
-    border-style: groove;
-    margin-top: 20px;
-    margin-left: 20%;
-    margin-right: 25.5%;
-    padding-left: 20px;
-    height: 420px;
-
-}
-
-aside.index {
-    float: left;
-    color: white;
-    background-color: rgb(11, 11, 92, 0.5);
-    margin-right: 5%;
-    margin-left: 0.5%;
-    margin-top: 20px;
-    font-size: 1.5em;
-    border-color: white;
-    border-width: 2px;
-    border-style: groove;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    position: relative;
-    height: 10%;
-    width: 250px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-
-
-
-section.cualidad {
-    column-count: 3;
-    margin-right: 10%;
-    break-after: column;
-}
-
-article {
-    height: 300px;
-}
-
-aside.derecha {
-    float: right;
-    color: white;
-    background-color: rgb(11, 11, 92, 0.5);
-    margin-right: 0.5%;
-    margin-left: 0.5%;
-    margin-top: 20px;
-    font-size: 1.5em;
-    border-color: white;
-    border-width: 2px;
-    border-style: groove;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    position: relative;
-    height: 10%;
-    width: 350px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-
-.cualidad1 {
-    margin-right: 80px;
-    margin-left: 20%;
-    width: 200px;
-}
-
-.cualidad2 {
-    margin-left: 80px;
-    width: 200px;
-}
-
-.cualidad3 {
-    margin-left: 130px;
-    width: 200px;
-}
-
-article h2 {
-    color: chartreuse;
-    margin-top: 0;
-
-}
-
-p.index {
-    margin-bottom: 200px;
-    margin-top: 0px;
-
-
-}
-
-img.img1 {
-    height: 120px;
-    width: 120px;
-    float: left;
-    margin-bottom: 10px;
-    padding-right: 20px;
-}
-
-img.img2 {
-    height: 120px;
-    width: 120px;
-    float: left;
-    padding-right: 20px;
-}
-
-img.img3 {
-    height: 100px;
-    width: 100px;
-    float: right;
-}
-
-img.img4 {
-    height: 100px;
-    width: 100px;
-    float: right;
-}
 
 /*sobre el proyecto*/
 
